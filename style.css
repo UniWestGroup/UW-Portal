@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #c5ccd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .logo{
+    width: 100%;
+    position: absolute;
+    height: 130px;
+    bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+
+body .logo .container{
+    width: 130px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body .logo .container img{
+    width: 130px;
+}
+
+
+body .logo .container h2{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 9px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container .box{
+    position: relative;
+    width: 600px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+    transition: .3s;
+    
+}
+
+section .container .box .title h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    word-spacing: 5px;
+}
+section .container .box .title h1 span{
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+section .container .box .title p{
+    text-transform: capitalize;
+    word-spacing: 4px;
+    text-align: center;
+    margin-top: .5em;
+}
+
+
+section .container .box .buttons{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 0 4em;
+}
+
+section .container .box .buttons a{
+    text-decoration: none;
+    color: #1e1e1e;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100vw;
+    font-weight: 400;
+    font-size: 18px;
+    transition: .2s;
+
+    /* Neomorphism */
+            background: linear-gradient(145deg, #b1b8be, #d3dae2);
+            box-shadow:  8px 8px 20px #a0a5ab,
+                        -8px -8px 20px #eaf3fba6;
+}
+        section .container .box .buttons a:hover{
+            background-color: #1e1e1e;
+            font-weight: 500;
+            background: #c5ccd3;
+            background: #c5ccd3;
+            background: linear-gradient(145deg, #b1b8be, #d3dae2);
+            box-shadow:  8px 8px 40px #a7adb3,
+                        -8px -8px 40px #e3ebf3;
+            letter-spacing: 1px;
+        }
+
+
+@media (max-width:500px) {
+
+    section .container .box{
+        width: 90vw;
+        padding: 0;
+    }
+    section .container .box .title h1{
+        font-size: 20px;
+    }
+    section .container .box .title h1 span{
+        font-size: 50px;
+    }
+    section .container .box .buttons{
+        height: auto;
+        gap: 1.2em;
+        position: relative;
+        margin-top: 4.5em;
+        width: 100%;
+        padding: 0 0;
+    }
+    section .container .box .buttons a{
+        width: 100%;
+        
+    }
+}
