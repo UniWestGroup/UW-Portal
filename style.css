@@ -10,7 +10,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-color: #c5ccd3;
+    background-color: #ececec;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,18 +124,17 @@ section .container .box .buttons a{
     transition: .2s;
 
     /* Neomorphism */
-            background: linear-gradient(145deg, #b1b8be, #d3dae2);
-            box-shadow:  8px 8px 20px #a0a5ab,
-                        -8px -8px 20px #eaf3fba6;
+    box-shadow: -10px -10px 15px rgba(255,255,255,.7),
+    10px 10px 15px rgba(70, 70, 70, .17),
+    -5px -5px 15px rgba(255,255,255,.5),
+    5px 5px 15px rgba(70, 70, 70, .15);
 }
         section .container .box .buttons a:hover{
-            background-color: #1e1e1e;
             font-weight: 500;
-            background: #c5ccd3;
-            background: #c5ccd3;
-            background: linear-gradient(145deg, #b1b8be, #d3dae2);
-            box-shadow:  8px 8px 40px #a7adb3,
-                        -8px -8px 40px #e3ebf3;
+            box-shadow: -10px -10px 15px rgba(255,255,255,.7),
+                10px 10px 15px rgba(70, 70, 70, .17),
+                inset -5px -5px 15px rgba(255,255,255,.5),
+                inset 5px 5px 15px rgba(70, 70, 70, .15);
             letter-spacing: 1px;
         }
 
