@@ -71,12 +71,12 @@ section .container .form input{
     border-radius: 50vw;
     padding: 0 20px;
     font-size: 16px;
-    background-color: transparent;
+    background-color: #dfdfdf;
     box-shadow: -10px -10px 15px rgba(255,255,255,.7),
                 10px 10px 15px rgba(70, 70, 70, .15),
                 inset -10px -10px 15px rgba(255,255,255,.7),
                 inset 10px 10px 15px rgba(70, 70, 70, .17);
-    border: 3px solid #ececec;
+    border: 3px solid #ededed;
     font-weight: bold;
     letter-spacing: 1.2px;
 }
@@ -116,6 +116,7 @@ section .container .form .button button{
                 5px 5px 15px rgba(70, 70, 70, .15);
     font-weight: bold;
     color: #ff005a;
+    background-color: #dfdfdf;
     transition: .3s;
 }
         section .container .form .button button:hover{
